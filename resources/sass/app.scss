@@ -1,0 +1,28 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+// font awesome
+@import "~@fortawesome/fontawesome-free/scss/fontawesome";
+@import "~@fortawesome/fontawesome-free/scss/solid";
+
+// upload button (found on edit and create views)
+::-webkit-file-upload-button {
+    height: 100%;
+    padding-top: 0.5rem !important;
+    padding-right: 0.75rem !important;
+    padding-bottom: 0.5rem !important;
+    padding-left: 0.75rem !important;
+    color: white;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    --tw-bg-opacity: 1;
+    background-color: rgb(30 58 138 / var(--tw-bg-opacity));
+    font-weight: 600 !important;
+}
